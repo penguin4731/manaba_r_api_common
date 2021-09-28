@@ -66,7 +66,7 @@ class ManabaManager
         tasks.push(
           {
             'title': contents_tds[0].text,
-            'deadline': Date.parse(contents_tds[2].text),
+            'deadline': contents_tds[2].text,
             'type': task_id,
             'url': contents_tds[0].find_element(:tag_name, 'a').attribute("href"),
             'className': contents_tds[1].text
