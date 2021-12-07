@@ -11,7 +11,7 @@
 3. Buildpacksを追加
   - https://github.com/heroku/heroku-buildpack-chromedriver.git
   - https://github.com/heroku/heroku-buildpack-google-chrome.git
-> バージョンはおそらく↓
+> バージョンはおそらく↓  
 > google-chrome 93.0.4577.82
 > chromedriver 93.0.4577.63
 4. 完成！
